@@ -1,6 +1,6 @@
 from flask import Flask, request,jsonify, render_template
 from flask_cors import CORS, cross_origin
-app = Flask(__name__,static_folder= "./dist/static",template_folder="./dist")
+app = Flask(__name__,static_folder= "./dist",template_folder="./dist")
 from train.training import combination, linguistic_only,user_only
 cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
@@ -9,7 +9,7 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def index():
     return render_template("index.html")
 
-@app.route('/evaluation',methods = ['POST', 'GET'])
+@app.route('/api/evaluation',methods = ['POST', 'GET'])
 @cross_origin()
 def evaluate_model():
     if request.method == 'POST':

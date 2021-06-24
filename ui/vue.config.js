@@ -1,5 +1,6 @@
 module.exports = {
 	runtimeCompiler: true,
+	publicPath:"/dist",
         devServer: {
                 proxy: {
                         "^/api": {
