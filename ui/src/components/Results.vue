@@ -1,7 +1,7 @@
 <template>
         <div>
                 <Navbar />
-		<h2 class="text-light mt-2 p-2">Examiner les resultats obtenus par nos modèles</h2>
+		<h2 class="text-light mt-2 p-2">Examinez les resultats obtenus par nos modèles</h2>
                 <b-card id="card-form" class="mx-auto" title-tag="h3" bg-variant="dark" text-variant="light" title="Remplissez le formulaire avec la configuration qui vous conviens et  jetter un oeil à ses resultats">       
                 <hr/>
                 <b-form class="p-1" @reset="onReset" v-if="show">
@@ -15,7 +15,7 @@
 				</b-form-group>
                         </b-row>
                         <b-row class="mt-1 p-1">
-                                <b-form-group label="Sur quel dataset voulais vous appliquer ce modele ?" class="h5 col text-light" v-slot="{ ariaDescribedby }">
+                                <b-form-group label="Sur quel dataset voulez vous appliquer ce modele ?" class="h5 col text-light" v-slot="{ ariaDescribedby }">
                                         <b-form-radio-group>
                                                 <b-form-radio v-model="dataset" class="text-left h6" @change="checkUser"  :aria-describedby="ariaDescribedby" name="dataset-radio" value="ISOT">ISOT</b-form-radio>
                                                 <b-form-radio v-model="dataset" class="text-left h6" @change="checkUser" :disabled="disabledFNN" :aria-describedby="ariaDescribedby" name="dataset-radio" value="FNN">FakeNews Dataset</b-form-radio>
@@ -23,7 +23,7 @@
                                 </b-form-group>
                         </b-row>
                         <b-row class="mt-1 p-1">
-                                <b-form-group label="Quels sont les modules que vous voulez  utilisés ?" class="h5 col text-light" v-slot="{ ariaDescribedby }">
+                                <b-form-group label="Quels sont les modules que vous voulez  utiliser ?" class="h5 col text-light" v-slot="{ ariaDescribedby }">
                                          <b-form-checkbox-group
                                                 :aria-describedby="ariaDescribedby"     
                                                 name="modules"
@@ -31,11 +31,11 @@
                                                 :checked="modules"
                                                 switches>
                                                 <b-form-checkbox class="text-left h6" value="linguistic" >Analyse Linguistique</b-form-checkbox>
- 						<b-form-checkbox class="text-left h6"  value="user" :disabled='disabledUser'>Analyse des Caracteristiques utilisateur</b-form-checkbox>
+ 						<b-form-checkbox class="text-left h6"  value="user" :disabled='disabledUser'>Analyse des Caractéristiques utilisateur</b-form-checkbox>
                                         </b-form-checkbox-group>
                                 </b-form-group>
                         </b-row>
-                        <b-button type="submit" @click.prevent="onSubmit()" class="col-lg-3" variant="outline-light">Submit</b-button>
+                        <b-button type="submit" @click.prevent="onSubmit()" class="col-lg-3" variant="outline-light">Confirmer</b-button>
                         <b-button type="reset"  class="col-lg-3 offset-lg-3"  variant="outline-secondary">Reset</b-button>
                 </b-form>
                 </b-card>

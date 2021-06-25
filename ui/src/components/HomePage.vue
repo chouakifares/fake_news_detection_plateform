@@ -5,9 +5,9 @@
 			<b-row>
 					<div>
 	  					<b-jumbotron text-variant="light" bg-variant="transparent">
-				    			<template #header>Fake News Buster</template>
+				    			<template #header>FakeNews Buster</template>
 							<template #lead>
-				     		 		La plateforme fake news buster est une plateforme permettant d'evaluer les preformance des modèles proposés dans l'etude menée dans le cadre de l'obtention de diplome de license academique à l'unversité bab Ezzouar
+				     		 		La plateforme fakenews buster est une plateforme permettant d'evaluer les performances des modèles proposés dans l'étude menée dans le cadre de l'obtention de diplome de licence en informatique générale à l'université des science et de la technologie Houari Boumedien
     							</template>
     							<hr class="my-1">
     							<b-row>
@@ -18,9 +18,9 @@
 								<p>
 								En vue de la nécessité de détecter ce type d’information de manières rapides pour éviter qu’elles ne se propagent, nous proposons deux approches différentes basées sur des techniques de machine learning et deep learning.
 								</p>
-    							<b-button class="my-1" variant="outline-light" href="/#/approach/">Inspecter les architecture des approches proposées dans notre etude </b-button>
-				    			<b-button class="my-1" variant="outline-light" href="/#/tests/">Tester vos propre modèle de machine learning</b-button>
-							<b-button class="my-1"  variant="outline-light" href="/#/tests/">Examiner les resultats obtenus par nos modèle</b-button>
+    							<b-button class="my-1" variant="outline-light" href="/#/approach/">Inspecter les architectures des approches proposées dans notre étude </b-button>
+				    			<b-button class="my-1" variant="outline-light" href="/#/tests/">Testez vos propres modèles de machine learning</b-button>
+							<b-button class="my-1"  variant="outline-light" href="/#/tests/">Examiner les résultats obtenus par nos modèle</b-button>
 							</b-col>
 							<b-col  lg="5">
 								 <b-img fluid :src="require('../../public/pic.png')"  alt="Social media"></b-img>

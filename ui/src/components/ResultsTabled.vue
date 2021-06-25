@@ -81,7 +81,7 @@
 						}
 					],
 					fields:"ML",
-					caption:"Résultats obtenus par le module d'analyse des caractéristiques utilisateurs basé machine learning utilisant une régression logistique"
+					caption:"Résultats obtenus par le module d'analyse des caractéristiques utilisateurs basé machine learning utilisant une régression logistique sur le dataset FNN"
 				},MLCombination:{
                                         values:[
                                                 {
@@ -105,7 +105,7 @@
                                                 }
                                         ],
                                         fields:"ML",
-                                        caption:"Résultats obtenus par le modèle basé machine learning en utilisant plusierus algorithme de classification"
+                                        caption:"Résultats obtenus par le modèle basé machine learning en utilisant plusieurs algorithmes de classification sur le dataset FNN"
 			},MLinguisticISOT:{
  					values:[
                                                 {
@@ -129,7 +129,7 @@
                                                 }
                                         ],
                                         fields:"ML",
-                                        caption:"Résultats obtenus par le module linguistique du modèle basé machine learning utilisant sur le dataset ISOT en utilisant plusieurs algorithmes de classification"
+                                        caption:"Résultats obtenus par le module linguistique du modèle basé machine learning sur le dataset ISOT en utilisant plusieurs algorithmes de classification"
 			},MLinguisticFNN:{
  					values:[
                                                 {
@@ -153,7 +153,7 @@
                                                 }
                                         ],
                                         fields:"ML",
-                                        caption:"Résultats obtenus par le module linguistique du modèle basé machine learning utilisant sur le dataset FNN en utilisant plusieurs algorithmes de classification"
+                                        caption:"Résultats obtenus par le module linguistique du modèle basé machine learning sur le dataset FNN en utilisant plusieurs algorithmes de classification"
 				}		
 			}
 		},

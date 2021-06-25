@@ -3,7 +3,8 @@
 		<Navbar/>
 		<b-container>
 			<h1 class="text-light">Architecture de l'approche basée Machine Learning</h1>
-			<b-img-lazy fluid-grow :src="require('../../public/ML.jpg')" alt="Architecture du modele basé ML"></b-img-lazy>
+			<b-img fluid-grow :src="require('../../public/ML.jpg')" alt="Architecture du modèle basé ML"></b-img>
+			<b-button variant="outline-light" href="/#/approach" >Revenir à la page de description des architectures</b-button> 
 		</b-container>
 	</div>
 </template>

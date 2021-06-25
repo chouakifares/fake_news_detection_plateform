@@ -27,8 +27,8 @@ export default {
                 sidebar: false,
                 items: [
                         //{ title: "Approches", path: "/#/approach",name:"Approach"},
-                        { title: "Tester vos propre Modele", path: "/#/tests",name:"Tests"},
-                        { title: "Resultats", path: "/#/results",name:"Results"},
+                        { title: "Testez vos propres modèles", path: "/#/tests",name:"Tests"},
+                        { title: "Résultats", path: "/#/results",name:"Results"},
                         //{ title: "Médias", path: "/#/media"},
                 ]
         }),
