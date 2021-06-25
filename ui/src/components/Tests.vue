@@ -2,7 +2,7 @@
         <div>
                 <Navbar />
                 <h2 class="text-light mt-2 p-2">{{title}}</h2>
-                <b-card v-if="!sent" id="card-form" class="mx-auto mb-2" title-tag="h3"  bg-variant="dark" text-variant="light" title="Remplissez le formulaire avec les hyperparamètre de votre choix pour entrainer un modèle de ML et examinez ses resultats">       
+                <b-card v-if="!sent" id="card-form" class="mx-auto mb-2" title-tag="h3"  bg-variant="dark" text-variant="light" title="Remplissez le formulaire avec les hyperparamètres de votre choix pour entraîner un modèle de ML et examinez ses resultats">       
                 <hr/>
                 <b-form class="p-1" @reset="onReset" v-if="show">
                         <b-row class="p-1">
@@ -132,10 +132,10 @@ import Navbar from "@/components/Navbar";
 		computed:{
 			title(){
 				if(!this.sent){
-					return "Tester l'effet de la variations des hyperparametre sur nos modele basés ML";
+					return "Testez l'effet de la variation des hyperparametres sur nos modèles basés ML";
 				}
 				else{
-					return "Resultat obtenus par votre modele";
+					return "Resultat obtenus par votre modèle";
 				}
 			}
 		},

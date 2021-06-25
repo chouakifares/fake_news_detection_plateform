@@ -2,7 +2,7 @@
         <div>
                 <Navbar />
 		<h2 class="text-light mt-2 p-2">Examinez les resultats obtenus par nos modèles</h2>
-                <b-card id="card-form" class="mx-auto" title-tag="h3" bg-variant="dark" text-variant="light" title="Remplissez le formulaire avec la configuration qui vous conviens et  jetter un oeil à ses resultats">       
+                <b-card id="card-form" class="mx-auto" title-tag="h3" bg-variant="dark" text-variant="light" title="Remplissez le formulaire avec la configuration qui vous convient et  jettez un oeil à ses resultats">       
                 <hr/>
                 <b-form class="p-1" @reset="onReset" v-if="show">
                         <b-row class="p-1">
